@@ -1,0 +1,31 @@
+button {
+    font-size: 16px;
+    font-weight: bold;
+    color: teal;
+    background-color: rgb(233, 230, 230);
+    border: 2px solid teal;
+    text-align: center;
+    width: 150px;
+    margin: 50px 0px 0px 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#aquamarine-background {
+    color: white;
+    background-color: rgb(20, 187, 128);
+    width: 30px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 0px 5px 20px;
+    border: none;
+}
+#blue-background {
+    color: white;
+    background-color: rgb(84, 84, 221);
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    margin-top: 5px;
+    box-shadow: 5px 3px 3px black;
+    border-radius: 0px;
+}

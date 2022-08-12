@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Gaming<span id="span-dojo">Dojo</span></h1>
+        <div class="right-navbar">
+            <select name="currency" id="currency">
+                <option> Dollars $</option>
+                <option> Euro €</option>
+                <option> Pounds £</option>
+                <option> Yen  ¥</option>
+            </select>
+            <p><img src="images/cart-light.png" alt="cart-light" class="icons"><span id="buy"> 0</span></p>
+            <img src="images/search-light.png" alt="search-light" class="icons">
+        </div>
+    </div>
+    <div class="content">
+        <h2>Highlights</h2>
+        <div class="img-scroller">
+            <img src="images/chevron-left.png" alt="chevron-left" class="chevron" onclick="scrollGameleft()">
+            <img class="scroller-imgs" src="images/cafe-neko.png" alt="cafe-neko" id="cafe-neko">
+            <img src="images/chevron-right.png" alt="chevron-right" class="chevron" onclick="scrollGameright()">
+        </div>
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="gameboxes">
+            <div class="col-1">
+                <img src="images/cafe-neko.png" alt="cafe-neko" class="imgs-games">
+                <p>Cafe Neko: Gold Edition</p>
+                <p><img src="images/windows.png" alt="windows" class="icons"><img src="images/apple.png" alt="apple" class="icons"></p>
+                <div class="bottom-col">
+                    <p class="purple-box">-30%</p>
+                    <div class="prices">
+                        <p id="old-price">$14.98</p>
+                        <p>$10.49</p>
+                    </div>
+                    <button class="buy-btn" onclick="buy()">Buy</button>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="images/pixel-ninjas-2.png" alt="pixel-ninjas-2" class="imgs-games">
+                <p>Pixel Ninjas 2</p>
+                <p><img src="images/windows.png" alt="windows" class="icons"><img src="images/apple.png" alt="apple" class="icons"></p>
+                <div class="bottom-col">
+                    <p class="purple-box">-10%</p>
+                    <div class="prices">
+                        <p id="old-price">$8.19</p>
+                        <p>$7.39</p>
+                    </div>
+                    <button class="buy-btn" onclick="buy()">Buy</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="images/stonepunk.png" alt="stonepunk" class="imgs-games">
+                <p>Stonepunk 10000 BCE</p>
+                <p><img src="images/windows.png" alt="windows" class="icons"><img src="images/apple.png" alt="apple" class="icons"><img src="images/linux.png" alt="linux" class="icons" onclick="message()"></p>
+                <div class="bottom-col">
+                    <p class="purple-box">NEW</p>
+                    <p>$19.99</p>
+                    <button class="buy-btn" onclick="buy()">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

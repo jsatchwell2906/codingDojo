@@ -1,0 +1,54 @@
+*{
+    color: white;
+}
+#container{
+    height: 970px;
+    width: 970px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+#navbar{
+    background-color: black;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    height: 60px;
+}
+
+#right-side-nav{
+    height: 70px;
+    display: flex;
+    width: 400px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+#card{
+    height: 400px;
+    width: 300px;
+    border: 5px solid red;
+}
+
+#daftpunkcat{
+    height: 200px;
+    width: 200px;
+}

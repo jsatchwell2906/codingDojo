@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.top {
+    background-color: lightgrey;
+    justify-content: space-between;
+    width: 800px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.search {
+    border: 2px solid black;
+    width: 400px;
+}
+.btn-login {
+        color: white;
+        background-color: blue;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px 0px black;
+}
+.row {
+    display: flex;
+}
+.box-definition {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    padding: 25px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+.definition-text {
+    font-size: 25px;
+    margin-left: 40px;
+}
+.btn-like {
+    background-color: #ffae42;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 0px black;
+}
+.box {
+    border: 2px solid black;
+    margin-left: 50px;
+    width: 200px;
+    background-color: whitesmoke;
+    padding: 25px;
+    align-items: center;
+    height: 180px;
+    display: inline-block;
+    justify-content: center;
+}
+.btn-add {
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px slid black;
+    background-color: #5daf5d;
+    box-shadow: 5px 5px 5px 0px black;
+}

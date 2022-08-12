@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: whitesmoke;
+}
+.content {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 1000px;
+}
+.navbar {
+    width: 100%;
+    border-top: 10px solid rebeccapurple;
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+h2 {
+    padding-left: 20px;
+}
+p {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.right-navbar {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons {
+    margin-top: -10px;
+    height: 30px;
+}
+#currency {
+    height: 40px;
+}
+#span-dojo {
+    color: rebeccapurple;
+}
+.img-scroller {
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.box {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(70, 68, 68);
+    border: 4px solid rgb(70, 68, 68);
+    border-radius: 5px;
+}
+.scroller-imgs {
+    height: 300px;
+}
+.chevron {
+    height: 100px;
+}
+.gameboxes {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.imgs-games {
+    width: 100%;
+}
+.col-1 {
+    flex: 1;
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+}
+.col-2 {
+    flex: 1;
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+}
+.col-3 {
+    flex: 1;
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+}
+.bottom-col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+#old-price {
+    text-decoration: line-through;
+    color: grey;
+}
+.purple-box {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+}
+.old-price {
+    color: grey;
+}
+.buy-btn {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 4px rgb(48, 47, 47);
+}
