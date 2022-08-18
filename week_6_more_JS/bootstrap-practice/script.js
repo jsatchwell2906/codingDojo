@@ -4,7 +4,7 @@
 //    x++;
 //}
 
-var funThings = ["Jeep jk", "Jeep Gladiator", "Bears", "Rivercats", "Browns", "AAA", "Brother Elephants"]
+//var funThings = ["Jeep jk", "Jeep Gladiator", "Bears", "Rivercats", "Browns", "AAA", "Brother Elephants"]
 
 //console.log(funThings[Math.floor(Math.random() * funThings.length)])
 
