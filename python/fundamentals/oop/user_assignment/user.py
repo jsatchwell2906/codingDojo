@@ -41,3 +41,5 @@ my_user.enroll()
 my_user.display_info()
 my_user.spend_points(100)
 my_user.display_info()
+
+my_user.display_info().enroll().spend_points(100).display_info()
