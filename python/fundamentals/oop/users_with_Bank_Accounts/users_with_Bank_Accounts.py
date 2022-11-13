@@ -26,7 +26,7 @@ class BankAccount:
     @classmethod
     def print_all_accounts(cls):
         for account in cls.accounts:
-            account.display_account_info()
+            account.display_user_balance()
 
 savings = BankAccount(.1, 1000)
 checking = BankAccount(.05, 5000)
