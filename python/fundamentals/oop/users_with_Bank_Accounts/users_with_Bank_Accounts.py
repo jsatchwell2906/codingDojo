@@ -35,3 +35,11 @@ savings.make_deposit(10).make_deposit(20).make_deposit(40).make_withdraw(500).yi
 checking.make_deposit(40).make_deposit(200).make_withdraw(80).yield_interest().display_user_balance()
 
 BankAccount.print_all_accounts()
+
+class User:
+    def __init__(self, first_name, last_name, age):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.svings = BankAccount(0.4, 400)
+        User.population += 1
