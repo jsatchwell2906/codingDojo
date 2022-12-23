@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <form action="/choice" method="post">
+            <p>Select Rock, Paper or Scissors</p>
+            <select name="our_choices" id="">
+                <option value="Rock">Rock</option>
+                <option value="Paper">Paper</option>
+                <option value="Scissors">Scssors</option>
+            </select>
+            <button>submit</button>
+        </form>
+        <strong>Your Choice: {{session.our_choice}}</strong>
+        <br>
+        <strong>Opponent Choooses: {{session.opp_choice}}</strong>
+        <br>
+        <strong>Current Wins: {{session.wins}}</strong>
+        <br>
+        <strong>Current Losses: {{session.losses}}</strong>
+        <br>
+        <strong>current draws: {{session.draws}}</strong>
+        <br>
+        <strong>Last Results: {{session.result}}</strong>
+        <div id="activities">
+            <p>Spot for our activities to appear</p>
+        </div>
+        <a href="#">Clear Session</a>
+    </div>
+</body>
+</html>
